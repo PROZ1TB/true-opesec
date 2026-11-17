@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "com.trueopsec.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "JoinMultiplayerScreenMixin",
+    "PlayerTeamMixin",
+    "ChatComponentMixin",
+    "EntityRenderDispatcherMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}

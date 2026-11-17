@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "trueopsec",
+  "version": "${version}",
+  "name": "True Opsec",
+  "description": "Client-side only: username changer, character invisibility and a DonutSMP scoreboard spoofer. Works alongside Bloom Client.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.trueopsec.TrueOpsecClient"]
+  },
+  "mixins": [
+    { "config": "trueopsec.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
